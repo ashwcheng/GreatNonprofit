@@ -1,0 +1,514 @@
+a {
+  color: #505050;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+h2 {
+  color: #505050;
+  font-size: 36px;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  /* color: #505050; */
+}
+
+.apptitle {
+  font-size: 36px;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.apps {
+width: 40%;
+}
+
+.appicon {
+  width: 30%;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.search {
+  height: 18px;
+  width: 18px;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+a:hover {
+  color: orange;
+}
+.jumbos {
+  background-color: orange !important;
+}
+
+
+.jumbotron {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  min-height: 650px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.jumbo-content {
+  padding-top: 14px;
+  max-width: 800px;
+  padding-left: 15%;
+  width: 100%;
+}
+
+.display-4 {
+  font-size: 36px;
+  width: 535px;
+  font-weight: 300;
+  line-height: 1.3;
+  color: white;
+}
+
+.btn-primary {
+  margin-top: 30px;
+}
+.btn-primary {
+  background-color: orange;
+  border: none;
+  border-radius: 25px;
+  width: 175px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: orange;
+  /* border: solid; */
+  /* border-color: orange; */
+}
+.head-topics {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.topicsforMe {
+  height: 600px;
+}
+.flex-container {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.flex-container > div {
+  background-color: transparent;
+  margin: 30px;
+  font-size: 25px;
+}
+.primaryNav {
+width: 600px;
+margin-left: 20px;
+}
+.secondaryNav {
+  margin-left: 15%;
+  width: 400px;
+}
+.nav-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+ display: flex;
+ flex-direction: row;
+}
+
+.arrow {
+  font-size: 12px;
+      padding: 2px 0 0 2px;
+}
+.view-port {
+  text-align: right;
+  margin-right: 200px;
+  margin-bottom: 14px;
+}
+.brand {
+  width: 70%;
+  float: right;
+  min-width: 125px;
+}
+.donations {
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 25px;
+  width: 125px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.donations:hover {
+  background-color: white;
+  color: orange;
+  /* border:solid;
+  border-color: orange; */
+}
+.icons {
+  justify-content: center;
+
+}
+/* .icon3 {
+  margin-left: 15px;
+} */
+/* .icon7 {
+  margin-left: 15px;
+} */
+.carousel {
+  background-color: #fafafa;
+  margin-top: 250px;
+}
+.carouselCards {
+  background-color: #fafafa;
+  padding-bottom: 25px;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.view {
+  text-align: right;
+  margin-bottom: 75px;
+}
+.topicsforMe {
+
+  margin-bottom: 100px;
+
+  padding-top: 50px;
+}
+.topics {
+  background-color: white;
+}
+.Name {
+  font-size: 20px;
+}
+.Name:hover {
+  text-decoration: none;
+  color: orange;
+}
+.location {
+  font-size: 16px;
+}
+.location:hover {
+  color: orange;
+  list-style: none;
+}
+.card {
+  border-radius: 15px;
+  width: 18%;
+  align-items: center;
+  max-height: 600px;
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.ourImpact {
+  background-color: white;
+  max-height: 600px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.head-impact {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 50px;
+  font-size: 36px;
+}
+.impactTitle {
+  font-size: 64px;
+  color: orange;
+}
+
+.impactcontainer {
+  background-color: white;
+}
+.impact {
+  text-align: center;
+  /* max-width: 500px !important; */
+  width: 380px;
+}
+.impact1 {
+  background: gray
+}
+
+.impact2 {
+  margin: 0 40px 0 40px !important;
+}
+
+.card {
+  width: 300px;
+}
+.card-img-top {
+  padding: 0;
+  border-radius: 14px 14px 0 0;
+}
+.card-text {
+  font-size: 16px;
+}
+.card-body {
+  padding-top: 25px;
+}
+.genre {
+  font-size: 12px;
+  display: inline-flex;
+  border: 1px solid;
+  padding: 5px 10px 5px 10px;
+  border-radius: 25px;
+  color: #505050;
+}
+.heart {
+width: 15%;
+}
+
+.heart2 {
+  display: none;
+  }
+
+.Container {
+  padding-top: 25px;
+  height: 245px;
+  /* margin-top: 100px; */
+  width: 80%;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+}
+.rewards {
+  margin-top: 25px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot {
+  width: 100%;  
+  background-color: lightgray;
+  justify-content: center;
+}
+
+.footer {
+  color: #505050;
+}
+.footInfo1 {
+  padding-top: 50px;
+}
+.footInfo2 {
+  padding-top: 50px;
+}
+.news-header {
+  color: #505050;
+  font-size: 15px;
+}
+.email {
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  color: lightgray;
+}
+.submit {
+  border: solid;
+  color: WHITE;
+  width: 150px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 15px;
+  background-color: orange;
+  border: none;
+}
+
+.submit:hover {
+  color: orange;
+  background-color: white;
+  /* border: solid;
+  border-color: white; */
+}
+.Icon {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 7px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-star {
+  color: orange;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 1510px) {
+  .nav-item{
+    font-size: 13px;
+  }
+  .secondaryNav{
+  margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1390px) {
+  .flex-container > div {
+    margin: 15px;
+  }
+  .tags {
+    flex-direction: column;
+    align-items: center;
+  }
+  .heart {
+    display: none;
+  }
+  .heart2 {
+    display: block;
+    width: 18%;
+    margin-bottom: 23px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .display-4 {
+      text-align: center;
+  }
+
+  .jumbo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .topics {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+  }
+  .carousel{
+    margin-top: 0;
+  }
+  .carouselCards{
+    align-items: center;
+    flex-direction: column;
+  }
+  .ourImpact {
+  margin-top: 0;
+  background-color: white;
+  margin-bottom: 75px;
+  max-height: 790px;
+  }
+  .impactcontainer {
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 126px; */
+  }
+  .card {
+    border-radius: 20px;
+    width: 45% !important;
+    /* align-items: center; */
+    /* max-height: 600px; */
+    text-align: center;
+    margin: 10px;
+  }
+  .view-port {
+  margin-right: 0;
+  text-align: center;
+  }
+  .news-header {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+  .email {
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    color: lightgray;
+    /* padding-left: 50px; */
+    margin-left: 0;
+  }
+  .submit {
+    border: solid;
+    color: orange;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    /* margin-left: 75px; */
+    /* margin-left: 100px; */
+    margin-left: 0;
+  }
+  .Container {
+    padding-top: 25px;
+    background-color: lightgray;
+    height: 420px;
+    width: 94%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .display-4 {
+    font-size: 25px;
+  }
+  .jumbotron{
+    min-height: 460px;
+  }
+  .apptitle, h2{
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .topicsforMe {
+    margin-bottom: -60px;
+  }
+  .card{
+    width: 70% !important;
+  }
+  .Container{
+    height: 520px;
+  }
+  .appicon{
+    width: 75%;
+  }
+  .heart2{
+    display: none;
+  }
+  .heart {
+    display: block;
+  }
+  .tags {
+    flex-direction: row;
+    align-items: none;
+}
+}
